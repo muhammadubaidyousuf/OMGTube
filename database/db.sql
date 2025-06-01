@@ -1,13 +1,13 @@
 -- Database schema for OMGTube
 
 -- Drop existing database if it exists
-DROP DATABASE IF EXISTS video_portal;
+DROP DATABASE IF EXISTS omgtube;
 
 -- Create database
-CREATE DATABASE video_portal CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE omgtube CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 -- Use the database
-USE video_portal;
+USE omgtube;
 
 -- Create users table
 CREATE TABLE users (

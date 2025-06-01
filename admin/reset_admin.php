@@ -2,9 +2,9 @@
 require_once '../config/database.php';
 
 // Check if database exists
-$check_db = $conn->query("SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'video_portal'");
+$check_db = $conn->query("SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'omgtube'");
 if (!$check_db || $check_db->num_rows === 0) {
-    die("Database 'video_portal' does not exist!");
+    die("Database 'omgtube' does not exist!");
 }
 
 // Create admin user if not exists, or update if exists
